@@ -3,6 +3,9 @@ async function run(){
     var isPyAvailable = require('hasbin').sync('python');
     console.log("Python installed : " + isPyAvailable);
 
+    var isPyAvailable = require('hasbin').sync('msbuild');
+    console.log("MSBuild installed : " + isPyAvailable);
+
     const checkDiskSpace = require('check-disk-space').default
     checkDiskSpace('C:/').then((diskSpace) => {
         console.log(diskSpace)
