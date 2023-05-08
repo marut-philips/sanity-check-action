@@ -10,6 +10,8 @@
   "author": "Marut Prasad",
   "license": "ISC",
   "dependencies": {
-    "@vercel/ncc": "^0.36.1"
+    "@vercel/ncc": "^0.36.1",
+    "check-disk-space": "^3.3.1",
+    "hasbin": "^1.2.3"
   }
 }
