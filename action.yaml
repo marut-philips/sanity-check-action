@@ -3,5 +3,5 @@ description: 'Checks the sanity of the build machine'
 author: 'Marut Prasad'
 
 runs:
-  using: 'node16'
+  using: 'node12'
   main: 'dist/index.js'
