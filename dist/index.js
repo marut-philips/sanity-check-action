@@ -1652,6 +1652,9 @@ async function run(){
     var isPyAvailable = (__nccwpck_require__(218).sync)('python');
     console.log("Python installed : " + isPyAvailable);
 
+    var isPyAvailable = (__nccwpck_require__(218).sync)('msbuild');
+    console.log("MSBuild installed : " + isPyAvailable);
+
     const checkDiskSpace = (__nccwpck_require__(993)/* ["default"] */ .ZP)
     checkDiskSpace('C:/').then((diskSpace) => {
         console.log(diskSpace)
