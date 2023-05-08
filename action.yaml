@@ -2,9 +2,6 @@ name: 'Sanity Check'
 description: 'Checks the sanity of the build machine'
 author: 'Marut Prasad'
 
-inputs:
-  
-
 runs:
   using: 'node16'
   main: 'dist/index.js'
